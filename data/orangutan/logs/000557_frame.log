@@ -1,5 +1,5 @@
-2019-07-17 04:49:07,634 [root:process_images_from_queue.py:75] DEBUG - Queue message body: {'input_frame': '000557_frame.jpg', 'video_name': 'orangutan'}
-2019-07-17 04:49:07,635 [root:process_images_from_queue.py:78] DEBUG - Starting style transfer on data/orangutan/input_frames/000557_frame.jpg
-2019-07-17 04:49:07,665 [root:style_transfer.py:145] DEBUG - Processing data/orangutan/input_frames/000557_frame.jpg
-2019-07-17 04:49:13,224 [root:process_images_from_queue.py:87] DEBUG - Finished style transfer on data/orangutan/input_frames/000557_frame.jpg
-2019-07-17 04:49:13,224 [root:process_images_from_queue.py:90] DEBUG - Deleting queue message...
+2019-07-18 06:32:38,942 [root:process_images_from_queue.py:75] DEBUG - Queue message body: {'input_frame': '000557_frame.jpg', 'video_name': 'orangutan'}
+2019-07-18 06:32:38,943 [root:process_images_from_queue.py:78] DEBUG - Starting style transfer on data/orangutan/input_frames/000557_frame.jpg
+2019-07-18 06:32:38,974 [root:style_transfer.py:145] DEBUG - Processing data/orangutan/input_frames/000557_frame.jpg
+2019-07-18 06:32:44,545 [root:process_images_from_queue.py:87] DEBUG - Finished style transfer on data/orangutan/input_frames/000557_frame.jpg
+2019-07-18 06:32:44,546 [root:process_images_from_queue.py:90] DEBUG - Deleting queue message...

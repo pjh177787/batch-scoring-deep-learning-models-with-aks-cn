@@ -8,7 +8,7 @@
         "name": "scoring-app"
     },
     "spec": {
-        "replicas": 4,
+        "replicas": 2,
         "template": {
             "metadata": {
                 "labels": {
@@ -21,7 +21,7 @@
                         "env": [
                             {
                                 "name": "MOUNT_DIR",
-                                "value": "/data"
+                                "value": null
                             },
                             {
                                 "name": "LB_LIBRARY_PATH",
@@ -53,7 +53,7 @@
                             },
                             {
                                 "name": "SB_SHARED_ACCESS_KEY_VALUE",
-                                "value": "pxiPuAEazRxwFvX/ekqXrcckWDHEYh9ruJQ5FTdYn5g="
+                                "value": "GPAQrJb0ZQ64kjo4IxIbdVClyPFTEZuji4jusi5oboc="
                             },
                             {
                                 "name": "SB_NAMESPACE",
@@ -74,7 +74,7 @@
                         "resources": {},
                         "volumeMounts": [
                             {
-                                "mountPath": "/data",
+                                "mountPath": null,
                                 "name": "blob"
                             }
                         ]
